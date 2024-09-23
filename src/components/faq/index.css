@@ -1,0 +1,102 @@
+.faq_container {
+    max-width: 1260px;
+    padding: 100px 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq_wrapper {
+    width: 100%;
+    max-width: 896px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.faq_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+    cursor: pointer;
+}
+
+.faq_header h3 {
+    margin-bottom: 0 !important;
+    font-family: 'Nulshock';
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
+    color: #FFFFFF !important;
+}
+
+.faq_header button {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: 300;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    padding: 12px;
+    line-height: 20px;
+    transition: all 0.5s ease;
+    border: none;
+}
+
+.b_active {
+    transform: rotate(-45deg);
+    color: rgba(0, 235, 250, 1) !important;
+    transition: all 0.5s ease;
+
+}
+
+.card {
+    border: none !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #FFFFFF !important;
+}
+
+.card-header {
+    border: none !important;
+    background-color: transparent !important;
+    padding: 10px 0 !important;
+}
+
+.card-body {
+    font-size: 16px;
+    line-height: 27px;
+    border: none !important;
+    color: white !important;
+    margin-left: 0px;
+    padding: 0 !important;
+    padding-right: 55px !important;
+    padding-top: 0 !important;
+    margin-bottom: 35px !important;
+    /* background-color: transparent !important; */
+}
+
+@media screen and (max-width: 768px) {
+    .faq_container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 80px 20px;
+
+    }
+
+    .card-body {
+        padding-right: 30px !important;
+    }
+
+    .faq_wrapper {
+        margin-top: 60px;
+
+    }
+
+    .faq_header h3 {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+}

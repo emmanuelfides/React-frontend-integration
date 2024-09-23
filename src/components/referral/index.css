@@ -1,0 +1,64 @@
+.referral_container {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.referral_text {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 658px;
+    height: 56px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 48px;
+    text-align: center;
+    border: 1px solid rgba(218, 218, 218, 1);
+}
+
+.referral_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.r_button_container {
+    text-align: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    .referral_container {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .referral_text {
+        width: 100%;
+        max-width: 658px;
+        min-height: 56px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 35px;
+
+        padding-top: 13px;
+    }
+
+    .referral_text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

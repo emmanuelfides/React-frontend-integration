@@ -1,0 +1,115 @@
+.game_container {
+    padding-top: 150px;
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.game_heading {
+    width: 100%;
+    min-height: 160px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    border: 2px solid;
+    padding: 10px 70px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.game_heading div {
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+.labfact_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game_heading span {
+    font-family: 'Nulshock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.game_heading h1 {
+    font-family: 'Nulshock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.game_heading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .game_container {
+        padding-top: 80px;
+        max-width: none;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+    }
+
+    .game_heading {
+        width: 100%;
+        border-radius: 20px;
+        padding: 10px 30px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .game_heading div {
+        margin-top: 35px;
+    }
+
+    .labfact_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .labfact_content span {
+        padding: 5px;
+    }
+
+    .game_heading h1 {
+
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .game_heading p {
+
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+}

@@ -1,0 +1,235 @@
+.main_game_cnt {
+    width: 100%;
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.lab_content {
+    max-width: 882px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 45px;
+    margin-top: 75px;
+}
+
+.lab_content h1 {
+    font-family: 'Nulshock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lab_content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sub_game_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.game_text {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 25px 20px;
+    width: 20%;
+    min-height: 301px;
+    margin: 0 12px;
+    position: relative;
+}
+
+.game_text:first-child {
+    margin-left: 0px;
+}
+
+.game_text:last-child {
+    margin-right: 0px;
+}
+
+.game_text::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(102.17deg, #FFFFFF 3.43%, rgba(255, 255, 255, 0) 100.71%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+
+.game_text h1 {
+    font-family: 'Nulshock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.game_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.game_text .l_num {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    right: -10px;
+    top: 22px;
+    font-family: 'Nulshock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background: #00EBFA;
+    text-align: center;
+}
+
+@media screen and (max-width: 998px) {
+
+    .sub_game_content {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .lab_content h1 {
+        margin-bottom: 20px;
+    }
+
+    .sub_game_content {
+        width: 100%;
+    }
+
+    .game_text {
+        min-width: 230px;
+        margin: 0;
+        margin-right: 40px;
+        margin-top: 40px;
+        transform: translateX(20px);
+
+    }
+
+
+    .game_text h1 {
+        font-family: 'Nulshock';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+
+    .game_text p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main_game_cnt {
+        width: 100%;
+        max-width: none;
+        margin: 0 auto;
+        padding-bottom: 00px;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .lab_content {
+        max-width: none;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 45px;
+        margin-top: 60px;
+    }
+
+    .lab_content h1 {
+        line-height: 32px;
+    }
+
+    .sub_game_content {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .game_text {
+        padding: 25px 25px;
+        width: 100%;
+        min-height: auto;
+        margin: 0px;
+        margin-bottom: 30px;
+        position: relative;
+        transform: none;
+
+    }
+
+    .game_text:nth-child(2),
+    .game_text:nth-child(4) {
+        margin-left: 0px;
+    }
+
+    .game_text::before {
+        padding: 2px;
+    }
+
+
+    .game_text h1 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .game_text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    .mobile_br_line {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        margin-top: 80px;
+    }
+}
